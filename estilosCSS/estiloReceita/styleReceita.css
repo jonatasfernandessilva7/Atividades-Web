@@ -1,0 +1,47 @@
+*{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+body{
+    background: #082c57;
+    color: #dcdcdc;
+}
+
+h1{
+    background-color: #8c6b15;
+    text-align: center;
+    border-radius: 20px;
+    width: 35%;
+    padding: 10px;
+}
+
+#infogeral{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+}
+
+.miojosaudavel{
+    border-radius: 56px;
+    border-color: aqua;
+    background-color: grey;
+    width: 25%;
+    padding: 10px;
+    color: black;
+}
+
+.perigo.especial{
+    color: black;
+    background-color: yellow;
+}
+
+a[href*="gihub"]{
+    background-color: green;
+    color: yellowgreen;
+    border-radius: 50px;
+}
+
+*.oi{
+    color: crimson;
+}
