@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: aqua;
+}
+
+header {
+    background-color: #333333;
+}
+
+a[href^="#"] {
+    color: #FFFFFF;
+}
+
+h2{
+    color: #0099FF;
+}
+
+p.date{
+    font-size: 14px;
+    font-style: italic;
+    color: grey;
+}
