@@ -1,0 +1,13 @@
+label {
+    font-size: 1.1em;
+}
+
+input {
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+button {
+    color: white;
+    background: #007bff;
+}
