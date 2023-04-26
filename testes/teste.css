@@ -1,0 +1,11 @@
+a::before {
+    content: "[";
+}
+
+a::after {
+    content: "]";
+}
+
+a[href^="#"]::after {
+    content: "](externo)";
+}
