@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blueColor {
+    color: blue;
+    border: 75px solid;
+}
+
+.blackolor {
+    color: black;
+    border: 75px solid;
+}
+
+.blue2Color {
+    color: blue;
+    border: 75px solid;
+}

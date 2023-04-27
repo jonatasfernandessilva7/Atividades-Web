@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    background-color: white;
+}
+
+.greenColor {
+    color: green;
+    border: 75px solid;
+    flex-direction: column;
+    height: 150px;
+    position: fixed;
+    left: 15px;
+}
+
+.yellowColor {
+    color: yellow;
+    border: 75px solid;
+    position: fixed;
+    left: 165px;
+    width: 75px;
+}
+
+.redColor {
+    color: red;
+    border: 75px solid;
+    position: fixed;
+    left: 165px;
+    bottom: 330px;
+    width: 75px;
+}
