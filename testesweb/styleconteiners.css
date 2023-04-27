@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 0.4rem;
+}
+
+p {
+    color: rgba(0, 0, 255, 1.0);
+    background-color : yellow;
+    border: 10px dashed #008000;
+    font-family: Garamond, "Times New Roman", serif ;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}

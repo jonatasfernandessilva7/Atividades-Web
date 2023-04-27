@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+
+.greenColor {
+    color: green;
+    border: 75px solid;
+    height: 150px;
+}
+
+.whiteColor {
+    color: white;
+    border: 75px solid;
+}
+
+.redColor {
+    color: red;
+    border: 75px solid;
+}

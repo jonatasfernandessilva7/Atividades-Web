@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+
+.blueColor {
+    color: blue;
+    border: 75px solid;
+}
+
+.yellowColor {
+    color: yellow;
+    border: 75px solid;
+}

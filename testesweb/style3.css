@@ -1,0 +1,30 @@
+p {
+    /*border-color: 1px solid black*/
+    background-color: aqua;
+    /*margin: 0;*/
+    border: 1px solid red;
+    overflow: hidden;
+    /*height: 111px;*/
+}
+
+/*
+#content {
+     float: left;
+     text-align: center;
+     border-color: 1px solid blue;
+     background-color: purple;
+     color: white;
+     width: 50%;
+}
+*/
+
+img {
+    float: right;
+    width: 50px;
+}
+
+h5 {
+    clear: left;
+    border: 6px solid blue;
+    background-color: silver;
+}

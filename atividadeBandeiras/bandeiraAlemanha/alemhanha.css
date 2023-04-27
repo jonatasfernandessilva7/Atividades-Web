@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blackColor {
+    color: black;
+    border: 75px solid;
+}
+
+.redColor {
+    color: red;
+    border: 75px solid;
+}
+
+.yellowColor {
+    color: yellow;
+    border: 75px solid;
+}
