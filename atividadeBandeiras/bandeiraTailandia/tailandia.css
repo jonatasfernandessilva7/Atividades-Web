@@ -1,0 +1,39 @@
+.container {
+    border-color: gray;
+    border: 1px solid;
+    box-sizing: content-box;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.redColor, .redColor2 {
+    color: red;
+    border: 65px solid;
+    display: fixed;
+    position: fixed;
+    width: 290px;
+    left: 9px;
+}
+
+.redColor {
+    top: 28px;
+}
+
+.blueColor {
+    color: rgb(66, 66, 243);
+    border: 65px solid;
+    display: fixed;
+    position: fixed;
+    bottom: 350px;
+    width: 290px;
+    left: 9px;
+}
+
+.redColor2 {
+    bottom: 207px;
+}

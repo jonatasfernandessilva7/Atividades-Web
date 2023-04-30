@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    background-color: white;
+    border: 2px solid;
+    border-color: gray;
+    box-sizing: content-box;
+    width: 300px;
+    height: 240px;
+    padding: 10px;
+}
+
+.blueColor, .blueColor2{
+    color: rgb(68, 68, 224);
+    border: 25px solid;
+}
+
+.blueColor{
+    flex-direction: column;
+    height: 210px;
+    position: fixed;
+    left: 90px;
+    top: 10px;
+}
+
+.blueColor2 {
+    position: fixed;
+    left: 10px;
+    width: 270px;
+    top: 100px;
+}

@@ -1,6 +1,11 @@
 .container {
     display: flex;
     flex-direction: column;
+    border-color: gray;
+    box-sizing: content-box;
+    width: 600px;
+    height: 240px;
+    padding: 10px;
 }
 
 .blackColor {
