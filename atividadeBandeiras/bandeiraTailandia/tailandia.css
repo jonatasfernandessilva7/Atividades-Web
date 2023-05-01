@@ -12,11 +12,12 @@
 }
 
 .redColor, .redColor2 {
-    color: red;
-    border: 65px solid;
+    background-color: red;
+    border: 1px solid;
     display: fixed;
     position: fixed;
-    width: 290px;
+    width: 420px;
+    height: 50px;
     left: 9px;
 }
 
