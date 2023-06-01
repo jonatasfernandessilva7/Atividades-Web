@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <script defer src="./js/script.js"></script>
+    
+    <!--incluindo bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jonatas fernandes">
+    <meta name="description" content="este é um jogo de Pedra, papel ou tesoura para passar o tempo">
+    <title>Pedra, papel ou tesoura</title>
+</head>
+
+<body>
+
+    <header>
+        <ul class="nav nav-underline justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#tutorial">Tutorial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#iniciarJogo">Iniciar Jogo</a>
+            </li>
+        </ul>
+    </header> <br><br>
+
+    <section id="inicio">
+        <div class="text-center">
+            <h1>Pedra, papel ou tesoura ? </h1>
+            <img src="./img/jo-ken-po.jpg" class="rounded mx-auto d-block" alt="jo-ken-po">
+        </div>
+    </section><br><br><br><br>
+
+    <section id="tutorial">
+        <h2> Como funciona o jogo? </h2>
+
+        <p> O jogo funciona da seguinte maneira, o player principal (Você) escolhe entre pedra,
+            papel ou tesoura ->> <img src="./img/pedra-miniatura.png" alt="pedra"> ---- <img
+                src="./img/papel-miniatura.png" alt="papel">
+            ---- <img src="./img/tesoura-miniatura.png" alt="tesoura"> <br>
+            Em seguida a IA (computador) vai escolher aleatoriamente uma das três opções também.
+        </p>
+
+        <h3>Condições de vitória</h3>
+
+        <ul>
+            <li>PEDRA VENCE TESOURA</li>
+            <li>TESOURA VENCE PAPEL</li>
+            <li>PAPEL VENCE PEDRA</li>
+        </ul>
+
+    </section><br><br><br><br>
+
+    <section id="iniciarJogo">
+        
+        <h4 id>Escolha uma das opções</h4>
+        <p>Para realizar a escolha basta você clicar em um dos botões para continuar jogando reinicie a página</p>
+
+
+        <button id="papel" type="button" class="btn btn-light" ></p><img src="./img/papel-miniatura.png" alt="papel"></button>
+        <button id="pedra" type="button" class="btn btn-light"></p><img src="./img/pedra-miniatura.png" alt="pedra"></button>
+        <button id="tesoura" type="button" class="btn btn-light"></p><img src="./img/tesoura-miniatura.png" alt="tesoura"></button>
+        <br><br><br>
+
+        <span id="msg"></span><br>
+
+        <p id="escolhaDaIA"></p>
+
+        <p id="resultado"></p><br>
+
+        <button type="button" class="btn btn-primary" id="jogarDeNovo">jogar novamente</button>
+
+    </section>
+
+
+</body>
+
+</html>
