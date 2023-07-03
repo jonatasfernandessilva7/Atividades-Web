@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olá, Vue.js!</title>
+    <script src="./assets/js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- usando syntax  mustache-->
+        <h1> {{ mensagem }}</h1>
+        <!-- usando diretivas-->
+        <h1 v-text="mensagem"></h1>
+    </div>
+    <script>
+        <!-- para instanciar o app -->
+        var app = new Vue({
+            <!-- propriedade elemento -->
+            el: '#app',
+            <!-- propriedade data -->
+            data: {
+                mensagem: 'Olá, Vue.js! Meu olá, mundo!'
+            }
+        });
+    </script>
+</body>
+</html>

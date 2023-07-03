@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olá, Vue.js!</title>
+    <script src="./assets/js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+       <h1 v-bind:title="titulo" v-html="mensagem"></h1>
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                mensagem: '<u>Olá, Vue.js! Meu olá, mundo!</u>',
+                titulo: "Meu titulo novo"
+
+            }
+        });
+    </script>
+</body>
+</html>

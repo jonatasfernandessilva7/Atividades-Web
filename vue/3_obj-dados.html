@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Olá, Vue.js!</title>
+    <script src="./assets/js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1> {{ listas[1].idioma }}</h1>
+        <h1 v-text="listas[1].id + 1"> {{ listas[1].idioma }}</h1>
+        <h1 > {{ verifica ? listas[0].nome : 'Adeus, amigo!' }}</h1>
+
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                mensagem: 'Olá, Vue.js! Meu olá, mundo!',
+                listas: [
+                    {
+                        id: 1,
+                        nome:'Anderson Uchôa',
+                        idioma: 'Portugues'
+                    },
+                    {
+                        id: 2,
+                        nome:'Uchôa',
+                        idioma: 'Ingles'
+                    },
+                    {
+                        id: 3,
+                        nome:'Anderson Uchôa',
+                        idioma: 'Espanhol'
+                    }
+                ],
+                verifica: true
+            }
+        });
+    </script>
+</body>
+</html>
